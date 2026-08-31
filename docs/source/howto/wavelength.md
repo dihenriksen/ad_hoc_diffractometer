@@ -24,10 +24,10 @@ g.wavelength = None  # unset
 
 ```python
 # Wavelength (Å) → energy (keV)
-E = ahd.wavelength_to_energy(1.5406)   # → 8.048 keV  (Cu Kα)
+E = ahd.radiation.wavelength_to_energy(1.5406)   # → 8.048 keV  (Cu Kα)
 
 # Energy (keV) → wavelength (Å)
-lam = ahd.energy_to_wavelength(12.398)  # → 1.0 Å
+lam = ahd.radiation.energy_to_wavelength(12.398)  # → 1.0 Å
 ```
 
 ## Convert wavelength ↔ wavenumber
