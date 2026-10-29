@@ -8,6 +8,7 @@ convert between wavelength, energy, d-spacing, and Q-vector magnitude.
 
 ```python
 import ad_hoc_diffractometer as ahd
+import ad_hoc_diffractometer.radiation
 
 g = ahd.make_geometry("psic")
 g.wavelength = 1.0  # Å
